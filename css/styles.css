@@ -1,0 +1,200 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+
+
+
+/* Container */
+
+.coloured-section{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+
+
+.white-section{
+
+background-color: white;
+
+}
+
+#title {
+
+}
+
+/* Hiearchical selector WITH SPACE PARENT AND CHILD*/
+#title .container-fluid{
+
+
+
+}
+
+
+/* element &name NO PARENT CHILD*/
+div#container-fluid{
+
+
+
+}
+/* Heading */
+.big-heading
+{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+/* Navigation Bar */
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0;
+  margin-bottom: 4.5rem;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TItle Image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/*feature container */
+#features {
+
+  padding: 10% 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.feature-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.pink-icon:hover {
+  color: #ff4c88;
+}
+
+.pink-icon {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.des-container {
+  padding: 30px;
+}
+
+/* Testimonial Section */
+.testimonial-Image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials {
+
+background-color: #ef8172
+}
+
+/* Press Section */
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-col {
+  padding: 20px;
+}
+
+/* CTA Section */
+#cta {
+
+  padding: 5% 10% 10%;
+}
+
+.cta-text {
+  margin-bottom: 60px;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+/* Footer section */
+#footer {
+  padding: 5%
+}
+
+.cta-icon {
+  margin: 20px;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
